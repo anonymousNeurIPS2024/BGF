@@ -1,18 +1,16 @@
-# BGF-MSL
+# BGF
 
 ## Introduce
 
-This repository contains the official PyTorch implementation of "BGF-MSL: Balanced Generative Framework for Meta-Shot Learning".
+This repository contains the official PyTorch implementation of "Real-World Classification Recognition with Limited Retrieved Images: A Novel Learning Paradigm and an Efficient Balanced Generative Framework".
 
-In the paper, we define a new realistic cognitive paradigm, named Meta-Shot Learning, in which the learner could utilize plentiful online Internet Resources to construct its recognition and reasoning ability quickly. At the same time, learners can engage in learning new classes even in situations of limited internet resources or even in offline settings.
-
-The Balanced Generative Framework (BGF) is proposed for Meta-Shot Learning, named BGF-MSL, specifically including three modules: Balancer keeps its training results as image weights to eliminate data imbalance among different classes; Generator generates pseudo features under the guidance of weights; Classifier trained with the balanced original and pseudo features completes the classification.
+Nowadays, people usually turn to the Internet or auxiliary online-tools based on  Visual Foundation Models when they recognize unfamiliar objects. The real-world classification recognition is being greatly affected by learning paradigms based on Internet resources. In this paper, we propose a novel learning paradigm, named Meta-Shot Learning (MSL), to reflect current human learning and recognition process in the Internet environment. Meta-Shot Learning could cover many existing learning paradigms, in which a learner could use auxiliary Internet resources to optimize recognition and inference through real-time Internet searching. Furthermore, we propose an efficient Balanced Generative Framework as an advanced baseline method, which works with the retrieved Internet images, to complete MSL classification task. The framework can adapt to and perform well in different limited data scenarios, including the resource-rich but noisy and the resource-scarce scenario with zero-shot learning. Experiments on several traditional datasets and the retrieved auxiliary images demonstrate that our framework has superior robustness in dealing with real-world classification recognition scenario and excellent performance in MSL classification task.
 
 ![img.png](assets/framework.png)
 
 The code in this repository presents the optimal implementation of BGF-MSL, i.e., our method, selected by Meta-Shot Learning experiments and ablation studies from several implementations. The specific model structure is shown in the following figure.
 
-![img.png](assets/structure.png)
+<img width="1654" alt="image" src="https://github.com/anonymousNeurIPS2024/BGF/assets/132399674/2738dd41-2050-4e8f-97aa-c65ca76fef4d">
 
 ## Data
 
