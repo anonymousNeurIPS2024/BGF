@@ -8,7 +8,7 @@ Nowadays, people usually turn to the Internet or auxiliary online-tools based on
 
 ![img.png](assets/framework.png)
 
-The code in this repository presents the optimal implementation of BGF-MSL, i.e., our method, selected by Meta-Shot Learning experiments and ablation studies from several implementations. The specific model structure is shown in the following figure.
+The specific model structure is shown in the following figure.
 
 <img width="1654" alt="image" src="https://github.com/anonymousNeurIPS2024/BGF/assets/132399674/2738dd41-2050-4e8f-97aa-c65ca76fef4d">
 
